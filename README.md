@@ -23,7 +23,7 @@ What's included?
 	- train.py:
 		> The script used for training the network
 		> Run this script in the same directory as ./train and ./validate. 
-Instructions:
+Instructions: 
 	Note: The following assumes you have already set up all required python libraries.
 	1) Download the files and move them to your desired working directory. 
 	2) If you would like to use the scripts then change the eighth line in NeuralAutomation, NeuralPredict, and TensorLaunch.
