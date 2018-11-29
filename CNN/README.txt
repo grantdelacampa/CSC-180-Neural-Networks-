@@ -3,12 +3,6 @@ Grant De La Campa
 CSC 180 Assignment 2
 
 What's included?
-	- ./train: 
-		> The folder containig the training data
-	- ./validate: 
-		> The folder containing the testing data
-	- ./ZtrainedNet: 
-		> The folder generated when training the neuralnet
 	- ./BatchRun:
 		> folder containing batch scripts to automate the assignment 
 		> NeuralAutomation.py: Runs train.py, predict.py, opens chrome to the tensorboard and runs tensorboard.
@@ -20,6 +14,9 @@ What's included?
 	- train.py:
 		> The script used for training the network
 		> Run this script in the same directory as ./train and ./validate. 
+	- predict.py:
+		> The script used to validated the training and test generalization. 
+		> Run this script after train.py in the same directory as ./train and ./validate.
 Instructions:
 	Note: The following assumes you have already set up all required python libraries.
 	1) Download the files and move them to your desired working directory. 
